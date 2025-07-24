@@ -1,0 +1,29 @@
+{
+  "searchCriteria": {
+    "companySizeMin": 50,
+    "companySizeMax": 200,
+    "industry": "software",
+    "location": "USA"
+  },
+  "businessContext": {
+    "companyName": "TechHardware Pro",
+    "companyDescription": "A hardware computer store that specializes in business solutions",
+    "targetSolutions": [
+      "enterprise-grade servers",
+      "high-performance workstations",
+      "network infrastructure equipment",
+      "storage solutions",
+      "security hardware"
+    ]
+  },
+  "aiSettings": {
+    "model": "gpt-3.5-turbo",
+    "maxTokens": 300,
+    "temperature": 0.7
+  },
+  "outputSettings": {
+    "generateCSV": true,
+    "generateJSON": true,
+    "consoleOutput": true
+  }
+}
